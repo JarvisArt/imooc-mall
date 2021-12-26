@@ -22,7 +22,7 @@ import javax.validation.Valid;
 import java.util.List;
 
 /**
- * 描述：目录分类
+ * 描述：目录分类Controller
  */
 @Controller
 public class CategoryController {
