@@ -17,20 +17,6 @@ public class UpdateProductReq {
 
     private Integer categoryId;
 
-    @Override
-    public String toString() {
-        return "UpdateProductReq{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", image='" + image + '\'' +
-                ", detail='" + detail + '\'' +
-                ", categoryId=" + categoryId +
-                ", price=" + price +
-                ", stock=" + stock +
-                ", status=" + status +
-                '}';
-    }
-
     @Min(value = 1, message = "价格不能小于1分")
     private Integer price;
 
@@ -47,6 +33,19 @@ public class UpdateProductReq {
 
     private Integer status;
 
+    @Override
+    public String toString() {
+        return "UpdateProductReq{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", image='" + image + '\'' +
+                ", detail='" + detail + '\'' +
+                ", categoryId=" + categoryId +
+                ", price=" + price +
+                ", stock=" + stock +
+                ", status=" + status +
+                '}';
+    }
 
     public String getName() {
         return name;
