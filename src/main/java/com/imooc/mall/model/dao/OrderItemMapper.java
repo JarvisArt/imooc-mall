@@ -1,5 +1,6 @@
 package com.imooc.mall.model.dao;
 
+import com.imooc.mall.model.pojo.Order;
 import com.imooc.mall.model.pojo.OrderItem;
 import org.springframework.stereotype.Repository;
 
